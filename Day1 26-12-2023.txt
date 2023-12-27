@@ -1,0 +1,58 @@
+Vector 
+size of vector for looping purpose: vector1.size()
+
+Accesssing data ffrom vector 
+vector1[1]
+vector1.at(10)
+vector1.front()
+vector2.back()
+
+inserting or modifying the data in vector
+vector1.push_back()
+vector1.pop_back()
+vector1.clear()
+
+---------------------------------------------------------
+List
+list are seq containers that allow constant time insert and erase operation anywhere within the seq, iteration in both direction
+list container are implemented as doubly- link list
+#include <list>
+list<int>list1={1,2,3,4,5}
+list.size(),list1.empty()
+list1.push_front(),list1.pop_front()
+list1.push_back(),list1.pop_back()
+
+list1.remove()
+list1.remove_if()
+list1.unique()=> removies duplicates from the list
+list1.sort()
+list1.merge()=> merge two sorted list
+list1.reverse()
+Accessing list elements
+for (L1 in list1)
+	coust<<L1;
+
+----------------------------------------------------------
+Stack
+#include <stack>
+stack<int>stack1(10)
+stack.size(),stack1.empty()
+stack1.push()
+stack1.pop()
+stack1.top()
+
+------------------------------------------------------------
+Set
+#include <set>
+set<int>set1(10)
+it keep the data in sorted order 
+set<int>set1={1,2,3,4,5}
+for (int i : set1)
+	coust<<i;
+not allow dublicates 
+s1.insert(10)
+s1.erase(10)
+s1.empty()
+s1.size()
+
+----------------------------------------------------------------
